@@ -9,6 +9,7 @@ $destinationTime = new DateTime('2023-05-01 15:30:00');
 echo  $presentTime->format('F j Y h:i a') . "\n";
 echo 'Destination Time' . "\n";
 echo  $destinationTime->format('F j Y h:i a') . "\n";
+echo 'Present Time' . "\n";
 
 // Calcul de la durée en années, mois, jours, heures et minutes
 $interval = $presentTime->diff($destinationTime);
